@@ -26,7 +26,6 @@ urlpatterns = [
     path('download/<uid>/', download),
     path('handle/', HandleFileUpload.as_view()),
 
-
     path('admin/', admin.site.urls),
 ]
 
